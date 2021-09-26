@@ -28,7 +28,7 @@ func main() {
 	if len(os.Args) < 2 {
 		fmt.Println("Poly1305 Hashsum Tool - ALBANESE Lab (c) 2020-2022\n")
 		fmt.Println("Usage of", os.Args[0]+":")
-		fmt.Printf("%s [-v] [-c <hash.xxh>] -key $SecretKey -t <file.ext>\n\n", os.Args[0])
+		fmt.Printf("%s [-v] [-c <hash.xxh>] -key <secret> -t <file.ext>\n\n", os.Args[0])
 		flag.PrintDefaults()
 		os.Exit(1)
 	}
