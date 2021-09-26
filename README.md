@@ -15,7 +15,7 @@
   such and not me.
   Use at your own risk!
 </pre>
-### USAGE: 
+### Usage: 
 <pre>poly1305 [-v] [-c <hash.ext>] -k <secret> -t <file.ext>
 
   -c string
