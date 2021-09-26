@@ -16,7 +16,7 @@
   Use at your own risk!
 </pre>
 ### Usage: 
-<pre>poly1305 [-v] [-c \<hash.ext\>] -k \<secret\> -t \<file.ext\>
+<pre>poly1305 [-v] [-c &lt;hash.ext&gt;] -k &lt;secret&gt; -t &lt;file.ext&gt;
 
   -c string
         Check hashsum file.
