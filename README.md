@@ -15,3 +15,18 @@
   such and not me.
   Use at your own risk!
 </pre>
+### USAGE: 
+<pre>poly1305 [-v] [-c <hash.ext>] -k <secret> -t <file.ext>
+
+  -c string
+        Check hashsum file.
+  -k string
+        Secret key.
+  -r    Process directories recursively.
+  -t string
+        Target file/wildcard to generate hashsum list.
+  -v    Verbose mode. (for CHECK command)</pre>
+## License
+
+This project is licensed under the ISC License.
+
