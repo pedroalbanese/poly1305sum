@@ -26,7 +26,7 @@ func main() {
 	flag.Parse()
 
 	if len(os.Args) < 2 {
-		fmt.Println("POLY1305 Hashsum Tool - ALBANESE Lab (c) 2020-2022\n")
+		fmt.Println("Poly1305 Hashsum Tool - ALBANESE Lab (c) 2020-2022\n")
 		fmt.Println("Usage of", os.Args[0]+":")
 		fmt.Printf("%s [-v] [-c <hash.xxh>] -key $SecretKey -t <file.ext>\n\n", os.Args[0])
 		flag.PrintDefaults()
